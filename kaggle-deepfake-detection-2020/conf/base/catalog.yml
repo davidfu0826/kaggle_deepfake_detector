@@ -47,4 +47,8 @@ example_iris_data:
   type: CSVLocalDataSet
   filepath: data/01_raw/iris.csv
 
+sample_video:
+  type: kaggle_deepfake_detection_2020.io.datasets.video_dataset.VideoDataSet
+  filepath: file://data/01_raw/dfdc_train_part_31/dfdc_train_part_31/aaedrqeumd.mp4
+  num_images: 10
 
